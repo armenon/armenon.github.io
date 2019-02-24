@@ -317,6 +317,11 @@ text-align:center;
 /**
  * Modal
  */
+
+ li{
+
+ 	margin-top: 10px;
+ }
 .modal {
   display: flex;
   align-items: center;
@@ -324,9 +329,9 @@ text-align:center;
   position: relative;
   margin: 0 auto;
   background-color: #fff;
-  width: 80%;
+  width: 90%;
 
-  height: 80%;
+  height: 90%;
   max-width: 175rem;
   min-height: 20rem;
   padding: 1rem;
@@ -423,7 +428,7 @@ text-align:center;
 
 .bullet-head{
 
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 20px;
 }
 
