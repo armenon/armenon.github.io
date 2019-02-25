@@ -308,7 +308,7 @@ text-align:center;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -386,6 +386,7 @@ text-align:center;
 .modal.active {
   visibility: visible;
   opacity: 1;
+	position:absolute;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
