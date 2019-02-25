@@ -336,11 +336,10 @@ text-align:center;
 
  	margin-top: 10px;
  }
-.modal {
-  display: flex;
+
   align-items: center;
   justify-content: center;
-  position: relative;
+
   margin: 0 auto;
   background-color: #fff;
   width: 90%;
@@ -361,7 +360,7 @@ text-align:center;
   transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
 .modal .close-modal {
-  position: absolute;
+ 
   cursor: pointer;
   top: 5px;
   right: 15px;
