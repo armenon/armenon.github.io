@@ -336,7 +336,8 @@ text-align:center;
 
  	margin-top: 10px;
  }
-
+.modal {
+  display: flex;
   align-items: center;
   justify-content: center;
 
